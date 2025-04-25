@@ -1,0 +1,308 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui;
+}
+
+body {
+    background-color: rgb(0,0,0);
+    color: rgb(255, 255, 255);
+}
+
+.navbar-left {
+    display: flex;
+    height:6.5vh;
+}
+
+.logo{
+    padding: 1vh;
+    flex:1;
+}
+
+.logo img{
+    height: 5vh;
+}
+
+
+.navbar-mid {
+    display:flex;
+    text-align: center;
+    flex:1;
+}
+
+.navbar-right {
+    text-align: right;
+    flex:1;
+}
+
+.navbar-right img{
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-right: 11px;
+}
+
+.home{
+    background-color: rgba(150, 150, 150, 0.6);
+    margin-top: 1vh;
+    height: 5vh;
+    width: 5vh;
+    border-radius: 40vh;
+    display: flex;
+}
+
+.home img {
+    margin-top: 0.35vh;
+    height: 4vh;
+    width: 4vh;
+}
+
+.search{
+    background-color: rgba(104, 103, 103, 0.6);
+    margin-top: 1vh;
+    height: 5vh;
+    width: 48vh;
+    position: relative;
+    border-radius: 16vh;
+    margin-left: 1vh;
+}
+
+.search img {
+    margin-top: 0.35vh;
+    height: 4vh;
+    width: 4vh;
+    position:absolute;
+    left: 6.5px;
+    padding-top: 1.7px;
+}
+
+.search .placeholder{
+    margin-top: 0.35vh;
+    height: 4vh;
+    width: 30vh;
+    position:absolute;
+    left: 35px;
+    padding-top: 5px;
+    color: rgb(176, 173, 173);
+
+}
+
+.container {
+    display: flex;
+}
+
+#left {
+    background-color: rgba(100, 100, 100, 0.341);
+    height: 78.1vh;
+    border-radius: 12px;
+    flex:1;
+    margin: 0.5vh;
+    margin-left: 1vh;
+    padding: 1vh;
+}
+
+.library{
+    display: flex;
+}
+
+.yourLibrary{
+    flex: 1;
+    margin-left: 20px;
+    margin-top: 17px;
+}
+
+.create{
+    background-color: rgb(72, 69, 69);
+    text-align: center;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    width: 11vh;
+    color: rgb(176, 173, 173);
+}
+
+.sections{
+    display: flex;
+    width:100%;
+    text-align: center;
+}
+
+.playlists{
+    background-color: rgb(72, 69, 69);
+    border-radius: 50px;
+    width: 11vh;
+    margin: 7px;
+    padding: 2px;
+    color: rgb(176, 173, 173);
+}
+.artists{
+    background-color: rgb(72, 69, 69);
+    border-radius: 50px;
+    width: 11vh;
+    padding: 2px;
+    margin: 7px;
+    color: rgb(176, 173, 173);
+}
+.albums{
+    background-color: rgb(72, 69, 69);
+    border-radius: 50px;
+    width: 11vh;
+    padding: 2px;
+    margin: 7px;
+    color: rgb(176, 173, 173);
+}
+.podcasts{
+    background-color: rgb(72, 69, 69);
+    border-radius: 50px;
+    width: 11vh;
+    padding: 2px;
+    margin: 7px;
+    color: rgb(176, 173, 173);
+}
+
+.librarySearch{
+    background-color: rgb(72, 69, 69);
+    border-radius: 50px;
+    margin: 7px;
+    text-align: left;
+    padding-left: 20px;
+    color: rgb(176, 173, 173);
+}
+
+#library{
+    display: flex;
+    margin-top: 20px;
+}
+
+.libImg img{
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 7px;
+}
+
+.name{
+    margin-bottom: 5px;
+    margin-left: 11px;
+}
+.desc{
+    font-size: 15px;
+    margin-left: 11px;
+    color: rgb(176, 173, 173);
+}
+
+
+
+#right {
+    background-color: rgba(44, 43, 43, 0.6);
+    height: 80vh;
+    border-radius: 12px;
+    flex: 2.8;
+    margin: 0.5vh;
+    margin-right: 1vh;
+}
+
+#right .artistThumbnail img{
+    width: 100%;
+    height: 280px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.songDetails{
+    display: flex;
+    align-items: center;
+}
+
+.songImage img{
+    height: 51px;
+    width: 51px;
+    border-radius: 10px;
+}
+
+.songName{
+    left: 50vh;
+    margin-left: 20px;
+}
+
+.songListener{
+    margin-left: 480px;
+    width: 100px;
+}
+
+.songDuration{
+    margin-left: 240px;
+}
+
+.bottom{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 89px;
+    display: flex;
+    position: relative;
+}
+
+.controls{
+    position: absolute;
+    background-color: red;
+    width: 700px;
+    left: 600px;
+}
+
+.controls .upperControl{
+    text-align: center;
+}
+
+.upperControl{
+    display: flex;
+    position: absolute;
+    left: 70px;
+}
+
+
+.previous img{
+    height: 30px;
+}
+
+.play{
+    margin-left: 20px;
+}
+
+.play img{
+    height: 40px;
+}
+
+.next{
+    margin-left: 20px;
+}
+
+.next img{
+    height: 30px;
+}
+
+.progress{
+    display: flex;
+    position: absolute;
+    top: 50px;
+    text-align: center;
+}
+
+.current{
+    flex: 1;
+}
+
+.bar{
+    background-color: rgb(72, 69, 69);
+    width: 280px;
+    height: 1px;
+    flex: 8;
+
+}
+
+.remaining{
+    flex: 1;
+}
