@@ -27,6 +27,13 @@ A simple and stylish frontend clone of the Spotify web player. Built using HTML 
 
 1. Clone the repository:
    git clone https://github.com/your-username/spotify-clone.git
+2. Navigate to folder :
+    cd Spotify-Clone
+3. Start the file :
+ - Windows :
+    start index.html
+ - Mac :
+    open index.html
 
 
 
